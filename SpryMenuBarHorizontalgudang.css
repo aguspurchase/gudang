@@ -37,6 +37,7 @@ ul.MenuBarHorizontal li
 	cursor: pointer;
 	width: 9em;
 	float: left;
+	background-image: url(https://3.bp.blogspot.com/-TaC0XXpx618/WBLwoDxo1II/AAAAAAAABqo/Jx_5-1mvNbcAyD1A1EhlrrREOw6YHhqigCLcB/s1600/github10.gif);
 }
 /* Submenus should appear below their parent (top: 0) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
 ul.MenuBarHorizontal ul
@@ -98,7 +99,7 @@ ul.MenuBarHorizontal a
 /* Menu items that have mouse over or focu have a blue background and white text */
 ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
 {
-        background-image: url(https://3.bp.blogspot.com/-TaC0XXpx618/WBLwoDxo1II/AAAAAAAABqo/Jx_5-1mvNbcAyD1A1EhlrrREOw6YHhqigCLcB/s1600/github10.gif);
+    background-image: url(https://3.bp.blogspot.com/-TaC0XXpx618/WBLwoDxo1II/AAAAAAAABqo/Jx_5-1mvNbcAyD1A1EhlrrREOw6YHhqigCLcB/s1600/github10.gif);
 	font-family: Georgia, "Times New Roman", Times, serif;
 	background-image: url(https://3.bp.blogspot.com/-TaC0XXpx618/WBLwoDxo1II/AAAAAAAABqo/Jx_5-1mvNbcAyD1A1EhlrrREOw6YHhqigCLcB/s1600/github10.gif);
 }
@@ -121,7 +122,7 @@ ul.MenuBarHorizontal a.MenuBarItemSubmenu
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
 	color: #000;
-	background-image: url(https://3.bp.blogspot.com/-TaC0XXpx618/WBLwoDxo1II/AAAAAAAABqo/Jx_5-1mvNbcAyD1A1EhlrrREOw6YHhqigCLcB/s1600/github10.gif);
+	background-image: url(https://4.bp.blogspot.com/-uSL8BDlfqsM/V8eXSgYbRkI/AAAAAAAABTQ/jnx3fvDe0vQuYY95xd2fo33mUGHANu4-QCLcB/s1600/hcommon.jpg);
 }
 /* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
@@ -165,6 +166,6 @@ ul.MenuBarHorizontal iframe
 	{
 		display: inline;
 		f\loat: left;
-		background: #F00;
+        background-color: #F00;
 	}
 }
